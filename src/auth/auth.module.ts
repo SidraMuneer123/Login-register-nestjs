@@ -10,7 +10,7 @@ import { UsersModule } from '../users/users.module';
     UsersModule,
     PassportModule,
     JwtModule.register({
-      secret: 'TodoApi', // Replace with your secret key
+      secret: 'TodoApi',
       signOptions: { expiresIn: '1h' },
     }),
   ],
